@@ -1,0 +1,58 @@
+
+/*CSS COMMON*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/*CSS COMMON*/
+#clr{
+    background-color: rgb(111, 108, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#clr button{
+    padding: 20px 40px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+    background-color: chocolate;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    border: none;
+}
+.light{
+    padding: 200px 0;
+    
+}
+.container{
+    width:100% ;
+}
+.on{
+    padding: 10px 20px;
+    text-transform: capitalize;
+    background-color: chocolate;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
